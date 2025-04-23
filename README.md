@@ -26,7 +26,6 @@ requests.delete('https://awesomekv.dev/key')
 ```
 
 Use with file extension
-
 https://awesomekv.dev/mynamespace/foo.svg
 
 ## Overview  
