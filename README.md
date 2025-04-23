@@ -1,5 +1,6 @@
 # AwesomeKV
 
+JavaScript
 ```js
 // Add key-value pairs
 await fetch('https://awesomekv.dev/key', { method: 'PUT', body: 'value' })
@@ -12,3 +13,14 @@ console.log(await res.text())
 await fetch('https://awesomekv.dev/key', { method: 'DELETE' })
 ```
 
+Python
+```python
+import requests
+
+# Add key-value pairs
+requests.put('https://awesomekv.dev/key', 'value')
+# Get value by key
+print(requests.get('https://awesomekv.dev/key').text)
+# Delete value by key
+requests.delete('https://awesomekv.dev/key')
+```
