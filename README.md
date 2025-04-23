@@ -25,6 +25,10 @@ print(requests.get('https://awesomekv.dev/key').text)
 requests.delete('https://awesomekv.dev/key')
 ```
 
+Use with file extension
+
+https://awesomekv.dev/mynamespace/foo.svg
+
 ## Overview  
 AwesomeKV is a serverless HTTP key–value store API built on Cloudflare Workers KV, providing global distribution, low-latency reads, and simple RESTful endpoints with built-in CORS support and automatic MIME-type handling.
 
